@@ -16,7 +16,6 @@ namespace BookListRazor.Pages.BookList
         {
             _db = db;
         }
-
         [BindProperty]
         public Book Book { get; set; }
         public void OnGet()
